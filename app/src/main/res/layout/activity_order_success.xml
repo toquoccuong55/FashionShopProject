@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pale_grey_two"
+    android:orientation="vertical"
+    tools:context=".activity.OrderSuccessActivity">
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_shipping_truck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textViewMuliSemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đặt hàng thành công!"
+            android:textAlignment="center"
+            android:textColor="@color/charcoal"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/textViewMuliSemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chúng tôi đang giao hàng đến bạn."
+            android:textAlignment="center"
+            android:textColor="@color/charcoal"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_order_more"
+            style="@style/textViewMuliExtraBold"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_cherry_tomato"
+            android:text="Đặt hàng thêm"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>

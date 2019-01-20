@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="textViewMuliBlack">
+        <item name="fontPath">fonts/Muli-Black.ttf</item>
+    </style>
+    <style name="textViewMuliBlackItalic">
+        <item name="fontPath">fonts/Muli-BlackItalic.ttf</item>
+    </style>
+    <style name="textViewMuliBold">
+        <item name="fontPath">fonts/Muli-Bold.ttf</item>
+    </style>
+    <style name="textViewBoldItalic">
+        <item name="fontPath">fonts/Muli-BoldItalic.ttf</item>
+    </style>
+    <style name="textViewMuliExtraBold">
+        <item name="fontPath">fonts/Muli-ExtraBold.ttf</item>
+    </style>
+    <style name="textViewMuliExtraBoldItalic">
+        <item name="fontPath">fonts/Muli-ExtraBoldItalic.ttf</item>
+    </style>
+    <style name="textViewMuliExtraLight">
+        <item name="fontPath">fonts/Muli-ExtraLight.ttf</item>
+    </style>
+    <style name="textViewMuliExtraLightItalic">
+        <item name="fontPath">fonts/Muli-ExtraLightItalic.ttf</item>
+    </style>
+    <style name="textViewMuliItalic">
+        <item name="fontPath">fonts/Muli-Italic.ttf</item>
+    </style>
+    <style name="textViewMuliLight">
+        <item name="fontPath">fonts/Muli-Light.ttf</item>
+    </style>
+    <style name="textViewMuliLightItalic">
+        <item name="fontPath">fonts/Muli-LightItalic.ttf</item>
+    </style>
+    <style name="textViewMuliRegular">
+        <item name="fontPath">fonts/Muli-Regular.ttf</item>
+    </style>
+    <style name="textViewMuliSemiBold">
+        <item name="fontPath">fonts/Muli-SemiBold.ttf</item>
+    </style>
+    <style name="textViewMuliSemiBoldItalic">
+        <item name="fontPath">fonts/Muli-SemiBoldItalic.ttf</item>
+    </style>
+    <style name="CheeryCheck" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/cherry_tomato</item>
+        <item name="android:textColorSecondary">@color/silver</item>
+    </style>
+</resources>

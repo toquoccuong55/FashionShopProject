@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonFaceBook">#3b579d</color>
+    <color name="softBule">#7baeea</color>
+    <color name="sick_green">#a6ce39</color>
+    <color name="white">#ffffff</color>
+    <color name="pale_grey">#eceef5</color>
+    <color name="pale_grey_two">#f7f7fc</color>
+    <color name="charcoal">#363e2e</color>
+    <color name="silver">#b5b7b7</color>
+    <color name="pastel_red">#db5d52</color>
+    <color name="denim_blue">#3b579d</color>
+    <color name="dark_sage">#53584e</color>
+    <color name="cherry_tomato">#e34132</color>
+</resources>
